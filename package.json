@@ -1,0 +1,12 @@
+{
+  "name": "relay-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "relay-compiler": "^1.2.0"
+  },
+  "scripts": {
+  	"relay": "relay-compiler --src=./src --schema=./schema.graphql"
+  }
+}
